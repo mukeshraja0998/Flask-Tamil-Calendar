@@ -56,7 +56,7 @@
         <div class="row">
 
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="{{yy}}" alt="Card image cap">
+                <img class="card-img-top" src="{{ url_for('static', filename='img/daily.jpg') }}" alt="Monthly Image">
                 <div class="card-body">
                     <h5 class="card-title">Today Calendar</h5>
                     <h6 class="card-subtitle mb-2 text-muted">Today Calendar</h6>
@@ -66,7 +66,7 @@
             </div>
 
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="https://www.tamildailycalendar.com/2005/1012005.jpg" alt="Card image cap">
+                <img class="card-img-top" src="{{ url_for('static', filename='img/daily.jpg') }}" alt="Monthly Image">
                 <div class="card-body">
                     <h5 class="card-title">Calendar all year</h5>
                     <h6 class="card-subtitle mb-2 text-muted">2005-2021</h6>
@@ -77,7 +77,8 @@
 
 
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="https://www.tamildailycalendar.com/2023_Monthly/11_Tamil_Monthly_Calendar_November_2023.jpg" alt="Card image cap">
+                <img class="card-img-top" src="{{ url_for('static', filename='img/monthly.jpg') }}" alt="Monthly Image">
+
                 <div class="card-body">
                     <h5 class="card-title">Monthly Calendar</h5>
                     <h6 class="card-subtitle mb-2 text-muted">2005 to Current Year</h6>
